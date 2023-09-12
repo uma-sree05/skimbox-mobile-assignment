@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.logo {
+    height: 10vh;
+    width: 10vh;
+}
+
+.span-element {
+    font-size: 12px;
+}
+
+.card-text {
+    background-color: #D5FFEE;
+    border: 2px solid #ABF0D5;
+    width: 100%;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.list-item {
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.button {
+    color: white;
+    border-radius: 15px;
+    font-size: 12px;
+    padding: 5px;
+    font-weight: bold;
+    width: 90%;
+    margin: 20px;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    color: black;
+    border-top: 4px solid #34D495 !important;
+}
+
+.card:hover {
+    border: 2px solid #34D495;
+}
+
+.nav-tabs {
+    display: none;
+}
+
+.main-container {
+    background-image: linear-gradient(to left, #A3E8CD, #FFFFFF);
+    padding: 20px;
+}
+
+.tab-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 25vh;
+    margin: 10px;
+    /* background: linear-gradient(45 deg,to right, #019586,#2DE7D3) border-box; */
+    background: linear-gradient(#fff, #fff) padding-box,
+        linear-gradient(#09CF93, #169179);
+    border: 2px solid transparent;
+    border-radius: 50px;
+
+}
+
+.button {
+    background-color: black;
+    color: white;
+    width: 8vh;
+    font-size: 10px;
+}
+
+.card {
+    flex: 1;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding: 15px;
+}
